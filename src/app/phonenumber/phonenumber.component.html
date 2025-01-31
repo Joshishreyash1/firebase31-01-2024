@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row d-flex align-items-center justify-content-center">
+        <form action="" >
+            <div class="card">
+               <div class="form-input">
+                <input type="text" class="form-control" placeholder="Enter Phone Number" name="phoneNumber" [(ngModel)]="phoneNumber" min="10" max="15">
+               </div>
+               <button class="btn btn-success mt-4 signup" (click)="sendOTP()">Get OTP</button>
+            </div>
+            <div id="recaptcha-container"></div>
+        </form>
+    </div>
+</div>
