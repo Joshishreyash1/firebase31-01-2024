@@ -5,7 +5,7 @@ import { environment } from "../environments/environment";
 
 
 if(!firebase.apps.length){
-    firebase.initializeApp(environment.firebase);
+    firebase.initializeApp(environment.firebaseConfig);
 }
 
 
